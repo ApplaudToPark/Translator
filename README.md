@@ -9,3 +9,14 @@
 ## Derivation
 Using ChatGPT API, it is simple to make a high-quiality translator that requires low specs. ChatGPT API can be used in Python environment to import "openai" modules.
 This project is aiming at implementing translators in low-spec devices.
+
+
+### Dependencies
+This codes are operate in python version 3.9.7.
+You have to install python modules as shown below :
+- gtts
+- speech recognition
+- pydub
+- pyaudio
+- wave
+- openai
