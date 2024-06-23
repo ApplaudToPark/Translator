@@ -5,7 +5,7 @@
 - This project is prepared for the "microprocessor" class at Chung-Ang Univ from May, 2024 to June, 2024.
 - It could be used for a qualification for something.
 - It is allowed to operate the codes for curiosities, but it cannot be used for any other competitions and beneficial usage.
-
+#
 
 ## Derivation
 Using ChatGPT API, it is simple to make a high-quiality translator that requires low specs. ChatGPT API can be used in Python environment to import "openai" modules.
