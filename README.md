@@ -11,7 +11,7 @@ Using ChatGPT API, it is simple to make a high-quiality translator that requires
 This project is aiming at implementing translators in low-spec devices.
 
 
-### Dependencies
+## Dependencies
 This codes are operate in python version 3.9.7.
 You have to install python modules as shown below :
 - gtts
