@@ -20,4 +20,4 @@ You have to install python modules as shown below :
 - wave
 - openai
 
-And, if you want to operate codes correctly, you must download all files in "Applaud-To-Park-main-code" section.
+And, if you want to operate codes correctly, you must download all files in "Applaud-To-Park-main-code" section. For convenience, I have uploaded the zip file which contains all the needed files.
