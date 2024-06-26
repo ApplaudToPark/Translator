@@ -21,3 +21,12 @@ You have to install python modules as shown below :
 - openai
 
 And, if you want to operate codes correctly, you must download all files in "Applaud-To-Park-main-code" section. For convenience, I have uploaded the zip file which contains all the needed files.
+
+
+## Principles
+The algorithms are following steps :
+1. Record the sound from monitor or microphone.
+2. The recorded signal is transformed to text by STT.
+3. Text is sent to ChatGPT with a prompt. The prompt helps to transform to other languages.
+4. Operating normally, ChatGPT send us the text which is transformed to what I request.
+5. The text is transformed to sound by TTS.
