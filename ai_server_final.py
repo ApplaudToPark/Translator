@@ -10,35 +10,15 @@ import time
 from openai import OpenAI
 import os
 import platform
-# import curses
+
+######## Information ########
+# 이 코드는 마이크로프로세서 프로젝트를 위해 작성되었습니다.
+# 이 코드 작성에 참여한 사람은 중앙대학교 전자전기공학부 소속 박민석, 임태건, 윤종진, 김영현입니다.
+# OpenAI의 ChatGPT의 API를 이용하여, 저성능 마이크로프로세서 상에서도 동작할 수 있는 번역기 프로그램입니다.
+# 
+#############################
 
 ######## 함수 정의 ########
-# def clear(stdscr) :
-#     curses.curs_set(0)  # 커서를 숨김
-#     stdscr.clear()  # 화면을 지움
-#     stdscr.refresh()
-#
-#     # 고정된 위치에 텍스트 출력
-#     height, width = stdscr.getmaxyx()
-#     statusbarstr = "Press 'q' to exit"
-#
-#     for i in range(100):
-#         if i == 50:
-#             break
-#
-#         stdscr.clear()  # 화면을 지움
-#         stdscr.addstr(0, 0, statusbarstr)
-#         stdscr.addstr(height//2, width//2, f"Count: {i}")
-#         stdscr.refresh()
-#         time.sleep(0.1)
-#
-#         # 'q' 키를 누르면 종료
-#         if stdscr.getch() == ord('q'):
-#             break
-#
-#     stdscr.getch()
-
-
 def record(filename) : # filename은 ".wav"로 정의되어야 함.
     FORMAT = pyaudio.paInt16
     CHANNELS = 1
