@@ -16,7 +16,7 @@ import platform
 # 이 코드 작성에 참여한 사람은 중앙대학교 전자전기공학부 소속 박민석, 임태건, 윤종진, 김영현입니다.
 # OpenAI의 ChatGPT의 API를 이용하여, 저성능 마이크로프로세서 상에서도 동작할 수 있는 번역기 프로그램입니다.
 # 이 파일은 중앙대학교 전자전기공학부 박민석의 GITHUB ID : "ApplaudToPark", PATH : /ApplaudToPark/Translator/ai_server_final.py
-#에 위치하고 있습니다.
+# 에 위치하고 있습니다.
 #############################
 
 ######## 함수 정의 ########
